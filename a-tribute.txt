@@ -1,0 +1,113 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute to Hiroshi Nakamura</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Tribute to Hiroshi Nakamura</h1>
+
+        <figure id="img-div">
+            <img id="image" src="https://cdn.bhdw.net/im/i-feel-the-flame-around-me-wallpaper-118014_w635.webp" alt="Hiroshi Nakamura">
+            <figcaption id="img-caption">Hiroshi Nakamura in action</figcaption>
+        </figure>
+
+        <div id="tribute-info">
+            <h2>About Hiroshi Nakamura</h2>
+            <p>
+                Hiroshi Nakamura, the legendary anime hero, is known for his extraordinary acts of courage and heroism.
+                He has saved the world multiple times from impending disasters, defeating powerful villains and bringing
+                peace to troubled lands. Hiroshi's unwavering determination and strength inspire millions of fans worldwide.
+            </p>
+
+            <p>
+                Hiroshi Nakamura's journey began in a small village, but destiny called him to become a savior.
+                His iconic moments include:
+            </p>
+
+            <ul>
+                <li>Defeating the Dark Emperor and sealing away his evil powers for eternity.</li>
+                <li>Rescuing innocent civilians from a collapsing skyscraper during a catastrophic battle.</li>
+                <li>Uniting rival clans to prevent a devastating war and restore harmony in the anime realm.</li>
+            </ul>
+        </div>
+
+        <a id="tribute-link" href="" target="_blank">
+            Learn More about Hiroshi Nakamura
+        </a>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#tribute-link:hover {
+    background-color: #555;
+}
+
+
+** end of undefined **
+

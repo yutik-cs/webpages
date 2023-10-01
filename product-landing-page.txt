@@ -1,0 +1,339 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Camera Backpacks</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="container">
+              <img id="header-img" src="https://cdn.dribbble.com/users/1503680/screenshots/14701672/backpack_4x.png" alt="logo"/>
+                <a href="someLink" class="logo" id="header-img">Camera Backpacks</a>
+                <ul class="menu">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#benefits">Benefits</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Carry Your Camera Gear in Style</h1>
+            <p>Explore our range of camera backpacks designed for photographers on the move.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </div>
+    </section>
+
+<section id="features" class="features">
+    <div class="container">
+        <h2>Features</h2>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-camera"></i></div>
+            <div class="feature-text">
+                <h3>Ample Storage</h3>
+                <p>Spacious compartments for your camera gear, lenses, and accessories.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-lock"></i></div>
+            <div class="feature-text">
+                <h3>Secure Protection</h3>
+                <p>Padded interior and weather-resistant materials keep your equipment safe.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="fas fa-battery-full"></i></div>
+            <div class="feature-text">
+                <h3>Long-lasting Battery</h3>
+                <p>Integrated power bank for charging your devices on the go.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="benefits" class="benefits">
+    <div class="container">
+        <h2>Benefits</h2>
+        <div class="benefit">
+            <div class="benefit-icon"><i class="fas fa-shipping-fast"></i></div>
+            <div class="benefit-text">
+                <h3>Fast Shipping</h3>
+                <p>Get your camera backpack delivered to your doorstep within days.</p>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="benefit-icon"><i class="fas fa-users"></i></div>
+            <div class="benefit-text">
+                <h3>Community</h3>
+                <p>Join our community of photographers and share your experiences.</p>
+            </div>
+        </div>
+        <div class="benefit">
+            <div class="benefit-icon"><i class="fas fa-hand-holding-heart"></i></div>
+            <div class="benefit-text">
+                <h3>Quality Assurance</h3>
+                <p>Each backpack undergoes rigorous quality checks to meet your expectations.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="pricing">
+    <div class="container">
+        <h2>Pricing</h2>
+        <div class="flex-products">
+        <div class="product">
+            
+              <img class="product-image" src="https://cdn.manfrotto.com/media/catalog/product/cache/1e774dca205198565016e92bdb88ad55/m/a/manfrotto-advanced2-camera-backpack-mb-ma2-bp-bfr-rearaccess.jpg" alt="standard backpack" />
+              <div class="product-name">Standard Backpack</div>
+            <div class="product-price">$99</div>
+            <ul>
+                <li>Ample storage space</li>
+                <li>Padded interior</li>
+                <li>Free shipping</li>
+            </ul>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product">
+          <img class="product-image" src="https://contents.mediadecathlon.com/p2540385/277a2b312f015e1d47dfad930bb6c79a/p2540385.jpg?format=auto&quality=70&f=440x0" alt="pro backpack" />
+            <div class="product-name">Pro Backpack</div>
+            <div class="product-price">$149</div>
+            <ul>
+                <li>Advanced protection</li>
+                <li>Power bank included</li>
+                <li>Priority shipping</li>
+            </ul>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product">
+          <img class="product-image" src="https://images-cdn.ubuy.co.in/633b3d8e7c74577f1a37303c-tarion-pro-camera-backpack-large-camera.jpg" alt="premium backpack" />
+            <div class="product-name">Premium Backpack</div>
+            <div class="product-price">$199</div>
+            <ul>
+                <li>Ultimate durability</li>
+                <li>Extra compartments</li>
+                <li>Express shipping</li>
+            </ul>
+            <button class="btn">Select</button>
+        </div>
+        </div>
+
+        <video  id="video" width="640" height="360" controls>
+        <source src="https://youtu.be/C253pB88rzM" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Camera Backpacks</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+#nav-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 100px;
+    text-decoration: none;
+    color: #fff;
+    padding-top:auto auto;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hero {
+    background-image: url('https://cdn.fstoppers.com/styles/full/s3/media/2022/06/19/nando-backpack-lying-down.jpg');
+    background-size: cover;
+    background-clip: border-box;
+    background-position:center bottom;
+    color: #fff;
+    text-align: center;
+    padding:250px;
+}
+
+.hero h1 {
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: 36px;
+    text-align: right;
+    color: #0f0f0f;
+    padding-top:100px;
+    
+}
+
+.hero p {
+    display: block;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #000;
+    text-align: right;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f15922;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin:10px;
+}
+
+.btn:hover {
+    background-color: #e44d1c;
+}
+
+
+.features, .benefits, .pricing {
+    padding: 80px 0;
+}
+
+.features h2, .benefits h2, .pricing h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header-img{
+  width:100px;
+  height:100px;
+  border-radius: 50% 50%;
+}
+
+.product-image{
+  width: 300px;
+  height:auto;
+}
+
+.product{
+  display:inline;
+  width: 400px;
+  border: 1px solid #0f0f0f;
+  margin: 2px;
+}
+.flex-products{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-name{
+    text-align: center;
+}
+
+.product-price{
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul > li{
+    list-style: none;
+    padding-left:10px;
+}
+
+#email{
+    position: absolute;
+    top: 348px;
+    right: 220px;
+}
+#submit{
+    position: absolute;
+    top: 320px;
+    right: 50px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+** end of undefined **
+

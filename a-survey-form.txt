@@ -1,0 +1,157 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+      <div>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+      <form id="survey-form" action="" method="post">
+        <label id="name-label">Name<input required id="name" type="text" placeholder="Enter your name"/></label>
+        <label id="email-label">Email<input required id="email" type="email" placeholder="Enter your Email" /></label>
+        <label id="number-label">Number<input required id="number" type="number" min="13" max="120" placeholder="Enter number" /></label>
+        <label class="radio-field">Would you recommend freeCodeCamp to your friends?
+          <label for="definitely"><input id="definitely" name="recommend" type="radio" value="definitely"/> Definitely</label>
+          <label for="maybe"><input id="maybe" name="recommend" type="radio" value="maybe"/> Maybe</label>
+          <label for="notsure"><input id="notsure" name="recommend" type="radio" value="not-sure"/> Not sure</label>
+          </label>
+          <label id="dropdown-label">What is your favourite feature of freeCodeCamp?
+        <select id="dropdown">
+          <option>Select an Option</option>
+          <option>Challenges</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+        </label>
+        <label>What would you like to see improved?
+        <div><label><input type="checkbox" value="front-end"> Front-end Projects</label>
+        <label><input type="checkbox" value="back-end"> Back-end Projects</label>
+        <label><input type="checkbox" value="data-visualization"> Data Visualization</label>
+        <label><input type="checkbox" value="challenges"> Challenges</label>
+        <label><input type="checkbox" value="videos"> Videos</label>
+        <label><input type="checkbox" value="forum"> Forum</label>
+        </label></div>
+        <label>Any comments or suggestions?
+        <textarea id="comment" placeholder="Enter your comments here..." rows="6" cols="20"></textarea>
+        </label>
+        <button type="submit" id="submit">Submit</button>
+        </form>
+        </div>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root{
+  --background-color1:rgba(00,00,25,0.8);
+  --background-color2:#F2F2F2;
+  --background-color3:#0F3195;
+  --font-color1: #FDFDFC;
+  --font-color2:#FFFAFA;
+  --font-color3:none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://wallpapercave.com/wp/wp4565870.jpg");
+  width:100%;
+  height: 100%;
+  background-attachment:fixed;
+}
+div{
+  display:block;
+}
+#title{
+  display:block;
+  padding-top:20px;
+  text-align: center;
+  color: var(--font-color1);
+}
+#description{
+  display:block;
+  text-align: center;
+  color: var(--font-color1);
+}
+
+#title{
+  display:block;
+  font-size:30px;
+  font-family: Verdana, sans-serif;
+  text-shadow: 3px 3px 7px black;
+}
+
+#description{
+  display:block;
+  font-size: 20px;
+  font-family: Garamond, sans-serif;
+  text-shadow: 3px 3px 5px black;
+}
+
+form{
+  display:block;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto;
+  padding:10px;
+  background-color: var(--background-color1);
+  border-radius: 5px;
+  color: var(--font-color2);
+}
+
+label{
+  display: block;
+  font-size: 20px;
+  font-family: Arial,sans-serif;
+  padding: 15px;
+  text-align: left;
+  margin: 0;
+}
+
+input#name,input#email,input#number,textarea,select{
+  display: block;
+  width:100%;
+  height: 30px;
+  background-color:var(--background-color2);
+  margin-top:3px;
+  border-radius: 3px;
+  border:0;
+  font-size:18px;
+  padding-left:8px;
+}
+
+textarea{
+  display:block;
+  height:100px;
+}
+
+button{
+  display:block;
+  background-color:var(--background-color3);
+  width:93.5%;
+  font-family: Verdana,sans-serif;
+  font-size: 20px;
+  margin-left: 16px;
+  padding: 8px;
+  border:none;
+  border-radius: 5px;
+}
+
+div > label{
+  display:block;
+  padding:10px 0 8px 15px;
+  
+}
+
+** end of undefined **
+

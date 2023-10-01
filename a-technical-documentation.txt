@@ -1,0 +1,256 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="sytlesheet" href="styles.css"/>
+    <title>Technical Documentation</title>
+    </head>
+    <body>
+      <nav id="navbar">
+        <header>Documentation Navigation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+        <a class="nav-link" href="#JavaScript_Functions">JavaScript Functions</a>
+        <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+      </nav>
+
+      <main id="main-doc">
+        <section class="main-section"  id="Introduction">
+          <header id="Intro">Introduction</header>
+          
+          <ul>
+            <li>What is web development?</li>
+            <li>The history of the internet</li>
+            <li>Key concepts in web development</li>
+            <li>The role of web developers</li>
+            <li>Tools and technologies</li>
+          </ul>
+          <p>Welcome to the exciting world of web development! In this digital age, the internet has become an integral part of our lives, and web development is the art and science of creating websites and web applications that power the online world.</p>
+
+    <p>Web development encompasses a wide range of skills, technologies, and practices that allow developers to design, build, and maintain websites that are not only visually appealing but also functional and user-friendly.</p>
+
+    <p>It all starts with the building blocks of the web: HTML (Hypertext Markup Language), which is used to structure the content of a webpage. Each <code>&lt;p&gt;</code> tag in this document represents a paragraph, one of the fundamental HTML elements for organizing text and content on a webpage.</p>
+
+    <p>But web development goes beyond just HTML. CSS (Cascading Style Sheets) is used to add style and layout to web pages, making them visually appealing and responsive across different devices and screen sizes.</p>
+
+    <p>Interactivity is another key aspect of web development, and JavaScript is the language that brings web pages to life. With JavaScript, you can create dynamic and interactive web applications that respond to user actions in real-time.</p>
+
+    <p>Modern web development also involves working with various frameworks and libraries, such as React, Angular, or Vue.js, which simplify the process of building complex web applications and enhance developer productivity.</p>
+
+    <p>Furthermore, web developers need to understand server-side programming languages like PHP, Python, or Node.js, as well as databases like MySQL or MongoDB to create dynamic web applications that store and retrieve data.</p>
+
+    <p>As you delve deeper into web development, you'll encounter concepts like APIs (Application Programming Interfaces), web security, performance optimization, and responsive design, all of which are essential for creating robust and user-friendly web experiences.</p>
+
+    <p>Whether you're a beginner just starting your journey in web development or an experienced developer looking to expand your skills, this field offers endless opportunities for creativity and innovation. So, get ready to explore the fascinating world of web development, where you can turn your ideas into digital reality!</p>
+
+    <p>Now, let's begin our journey into the exciting realm of web development by learning more about HTML, CSS, and JavaScript, the foundational technologies that power the web.</p>
+        </section>
+        <section class="main-section" id="HTML_Basics">
+          <header id="HTML">HTML Basics</header>
+          <ul>
+            <li>What is HTML?</li>
+            <li>HTML document structure</li>
+            <li>HTML elements and tags</li>
+            <li>Creating links and anchors</li>
+            <li>HTML forms and input fields</li>
+          </ul>
+          <p>HTML (HyperText Markup Language) is the standard markup language...</p>
+          <p>Welcome to the world of HTML!</p>
+
+<p>HTML, which stands for HyperText Markup Language, is the backbone of the World Wide Web. It is a markup language used to structure and present content on the internet.</p>
+
+<p>HTML documents consist of a series of elements, which are enclosed in tags. These tags define the structure and meaning of the content within a web page. They tell the web browser how to display the text, images, links, and other media on a webpage.</p>
+
+<p>HTML uses a hierarchical structure, with elements nested within other elements. This nesting creates a tree-like structure, with a root element at the top and various child elements branching off it.</p>
+
+<p>One of the fundamental concepts in HTML is the use of opening and closing tags. Opening tags are used to start an element, and closing tags are used to end it. The content that you want to display on a web page is placed between these opening and closing tags.</p>
+
+<p>For example, to create a paragraph of text, you use the <code>&lt;p&gt;</code> tag to open the paragraph and the <code>&lt;/p&gt;</code> tag to close it. Anything between these tags will be displayed as a separate paragraph.</p>
+
+<p>HTML is not case-sensitive, which means you can use uppercase or lowercase letters for tags and attribute names. However, it is a good practice to use lowercase for tags and attribute names to ensure consistency and readability of your code.</p>
+
+<p>In addition to paragraphs, HTML offers a wide range of elements for headings, lists, images, links, forms, and more. These elements allow you to create rich and interactive web pages.</p>
+
+<p>As you learn HTML, you'll also come across attributes, which provide additional information about an element. Attributes are added to the opening tag and can modify an element's behavior or appearance.</p>
+
+<p>Throughout this introduction, we will explore the basics of HTML, including common elements, attributes, and how to create a simple web page.</p>
+          <code>&lt;html&gt;</code>
+          <p>HTML provides the structure of a web page...</p>
+          <code>&lt;body&gt;</code>
+          <code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code>
+        </section>
+        <section class="main-section" id="CSS_Styling">
+          <header id="CSS">CSS Styling</header>
+          <ul>
+            <li>What is CSS?</li>
+            <li>Styling HTML elements</li>
+            <li>CSS selectors and properties</li>
+            <li>CSS box model</li>
+            <li>Creating CSS classes</li>
+          </ul>
+          <p>Cascading Style Sheets, commonly known as CSS, play a pivotal role in web development. They allow us to control the presentation and layout of web pages, making them visually appealing and user-friendly.</p>
+
+  <p>In this introduction, we'll explore the basics of CSS styling and how it can transform the appearance of HTML elements, such as the "<p>" tag you see here.</p>
+
+  <p>CSS provides a powerful set of tools to define colors, fonts, margins, padding, borders, and more. With CSS, you can create stunning designs and responsive layouts for websites and applications.</p>
+
+  <p>Whether you're a beginner or an experienced web developer, understanding CSS is essential for building modern and attractive web experiences.</p>
+
+  <p>Throughout this tutorial, we'll cover CSS selectors, properties, values, and practical examples to get you started on your journey to becoming a CSS pro.</p>
+
+  <p>So, let's dive into the world of CSS styling and learn how to make your web content shine!</p>
+
+  <p>Feel free to experiment with different CSS styles to see how they affect the appearance of these paragraphs. CSS is all about creativity and customization, and the possibilities are virtually endless.</p>
+
+  <p>Ready to get started? Let's explore the world of CSS styling together!</p>
+
+  <p>Before we continue, ensure that you have a basic understanding of HTML, as CSS is used to style HTML elements.</p>
+
+  <p>Now, let's begin our journey into the fascinating world of CSS!</p>
+          <code>body { background-color: #f0f0f0; }</code>
+          <p>With CSS, you can control the layout, appearance, and...</p>
+          <code>.button { color: #fff; background-color: #007bff; }</code>
+        </section>
+
+        <section class="main-section" id="JavaScript_Functions">
+          <header id="JavaScript">JavaScript Functions</header>
+          <ul>
+            <li>What is JavaScript?</li>
+            <li>Variables and data types</li>
+            <li>Control structures</li>
+            <li>Functions and methods</li>
+            <li>Objects and arrays</li>
+          </ul>
+          <p>
+        JavaScript functions are essential building blocks in web development. They allow you to encapsulate a block of code and execute it whenever needed. Functions make your code more organized, reusable, and maintainable.
+    </p>
+    <p>
+        In this tutorial, we'll dive into the world of JavaScript functions. We'll explore what functions are, how to define them, pass arguments, and return values. You'll discover how functions can simplify complex tasks and enhance the interactivity of your web applications.
+    </p>
+    <p>
+        Functions are like recipes in cooking. They take in ingredients (arguments), perform a series of steps (code), and produce a delicious dish (output). Just as a chef can reuse their recipes for different meals, you can reuse functions across your code to save time and effort.
+    </p>
+    <p>
+        JavaScript functions are versatile; you can use them for calculations, event handling, data manipulation, and more. Whether you're a beginner or an experienced developer, mastering functions is fundamental to becoming proficient in JavaScript.
+    </p>
+    <p>
+        Throughout this guide, we'll provide examples and practical exercises to help you grasp the concepts and apply them to real-world scenarios. By the end, you'll have a solid understanding of JavaScript functions and be ready to incorporate them into your web projects.
+    </p>
+    <p>
+        So, let's get started on our journey to unlock the power of JavaScript functions and take your coding skills to the next level.
+    </p>
+          <code>function greet(name) { return "Hello, " + name + "!"; }</code>
+          <p>Functions in JavaScript are blocks of code that can be...</p>
+          <code>const add = (a, b) => a + b;</code>
+        </section>
+        <section class="main-section" id="Responsive_Design">
+          <header id="RespDes">Responsive Design</header>
+          <ul>
+            <li>What is responsive design?</li>
+            <li>Media queries and breakpoints</li>
+            <li>Designing for various screen sizes</li>
+            <li>Testing and debugging</li>
+            <li>Best practices</li>
+          </ul>
+          <p>Responsive web design is an approach to web design that makes web pages...</p>
+          <p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
+        <p>It ensures that your website looks and functions seamlessly on desktops, laptops, tablets, and smartphones, providing an optimal user experience for all users.</p>
+        <p>With the increasing diversity of devices and screen sizes, responsive design has become essential for modern web development.</p>
+        <p>Using HTML and CSS, we can create layouts and styles that adapt to different screen sizes and orientations.</p>
+        <p>Responsive design involves fluid grids, flexible images, and media queries to achieve this adaptability.</p>
+        <p>By the end of this tutorial, you'll have a solid understanding of responsive design principles and how to implement them in your web projects.</p>
+        <p>Let's get started!</p>
+        <p>Feel free to resize your browser window to see the responsive design in action.</p>
+        <p>Explore the code and CSS styles to learn more about how responsive design is achieved.</p>
+          <code>@media (max-width: 768px) { /* Styles for mobile devices */ }</code>
+          <p>Media queries are used to apply different styles to different...</p>
+          <code>img { max-width: 100%; height: auto; }</code>
+        </section>
+        </main>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100%;
+    overflow-y: auto;
+    border:2px solid #fefefe;
+}
+
+#navbar header {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav-link {
+    display:block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    outline:thin solid #fefefe;
+
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+#main-doc {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p{
+    
+    padding:5px;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
+
+
+** end of undefined **
+
