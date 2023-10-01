@@ -1,0 +1,222 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#profile-link" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="welcome-section">
+        <h1>Hey I am Yutik</h1>
+          <p>Welcome to My Portfolio</p>
+    </section>
+
+
+    <section id="projects">
+        <h2 id="some-project">These are some of my projects</h2>
+        <section id="projects-all">
+        <br/>
+        <div class="project-tile">
+            <img class="clipped-image" src="https://github.com/yutik-cs/webpages/blob/main/survey-form.png?raw=true" alt="Image of survey form"/>
+            <p class="padding-need">Survey Form</p>
+            <a href="https://github.com/yutik-cs/webpages/blob/images/a-survey-form.txt">View Code</a>  
+        </div>
+        <div class="project-tile">
+            <img class="clipped-image" src="https://github.com/yutik-cs/webpages/blob/main/tribute-page.png?raw=true" alt="Image of tribute page"/>
+            <p class="padding-need">Tribute Page</p>
+            <a href="https://github.com/yutik-cs/webpages/blob/images/a-tribute.txt">View Code</a>
+        </div>
+        <div class="project-tile">
+            <img class="clipped-image" src="https://github.com/yutik-cs/webpages/blob/main/technical-documentation-page.png?raw=true" alt="Image of technical documentation page"/>
+            <p>Technical Documentation Page</p>
+            <a href="https://github.com/yutik-cs/webpages/blob/images/a-technical-documentation.txt">View Code</a>
+        </div>
+        <div class="project-tile">
+            <img src="https://github.com/yutik-cs/webpages/blob/main/product-landing-page.png?raw=true" id="product-page" alt="Image of product landing page"/>
+            <p>Product Landing Page</p>
+            <a href="https://github.com/yutik-cs/webpages/blob/images/product-landing-page.txt">View Code</a>
+        </div>
+        </section>
+    </section>
+    <div id="git-link">
+    <img id="git-logo" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github logo" />
+    <a id="profile-link" href="https://github.com/yutik-cs" target="_blank">
+    GitHub Profile</a>
+    </div>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 10px;
+}
+
+#navbar a:hover{
+  background-color:  #009688;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #009688;
+  color: #fff;
+}
+
+#projects-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.project-tile {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align:center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-tile:last-of-type{
+   background-color: #fff;
+  width: 1000px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align:center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#profile-link {
+  text-align: center;
+  margin: 20px;
+  color: #009688;
+  text-decoration: none;
+}
+
+h1{
+  font-size:5vw;
+
+}
+
+p{
+  font-size:3vw;
+  font-family: "Times New Roman", sans-serif;
+  font-style: italic;
+}
+
+
+div > a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.clipped-image{
+  width: 350px;
+  height: 400px;
+  clip-path: inset(0 0 100px 0 #ccc);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  }
+
+  #product-page{
+  width: 950px;
+  height: 500px;
+  clip-path: inset(0 0 100px 0 #ccc);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  }
+
+.padding-need{
+  padding-top:55px;
+}
+
+#git-logo{
+  width:30px;
+  height: 30px;
+  border-radius:50%;
+}
+
+#git-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#some-project{
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+** end of undefined **
+
